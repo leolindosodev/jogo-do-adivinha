@@ -1,0 +1,45 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../midia/pngtree-matrix-wallpaper-with-green-binary-number-and-lock-image_718923.jpg);
+    background-position: center center;
+    background-size: contain;
+}
+div{
+    padding: 1.6rem 0;
+}
+.game-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    color: #000;
+    background-color: #FFFccc;
+    border: 1px solid #ffffff;
+}
+#game-title{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#inumber{
+    margin: 1rem 0 0;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+button{
+    border: none;
+    cursor: pointer;
+    padding: 15px 20px;
+    background-color: #ff0000;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 0px #000000;
+}
